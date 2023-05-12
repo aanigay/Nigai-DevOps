@@ -1,0 +1,16 @@
+version: "3"
+
+networks:
+  myapp:
+    external: true
+
+services:
+  comms-app:
+    build: .
+    ports:
+      - "8004:8004"
+    environment:
+      - DB_URL=postgres://root:root@app-db:5432/app-db?sslmode=disable
+      - PORT=8004
+    networks:
+      - myapp

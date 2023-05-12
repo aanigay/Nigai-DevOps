@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../user-app-service/.idea/User-App-Service.iml" filepath="$PROJECT_DIR$/../user-app-service/.idea/User-App-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../chat-app/.idea/chat-app.iml" filepath="$PROJECT_DIR$/../chat-app/.idea/chat-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../chat-app-service/.idea/chat-app-service.iml" filepath="$PROJECT_DIR$/../chat-app-service/.idea/chat-app-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../comms-app-service/.idea/comms-app-service.iml" filepath="$PROJECT_DIR$/../comms-app-service/.idea/comms-app-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../go-next-ts_chat/go-next-ts_chat/.idea/go-next-ts_chat.iml" filepath="$PROJECT_DIR$/../../../go-next-ts_chat/go-next-ts_chat/.idea/go-next-ts_chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/group-app-service.iml" filepath="$PROJECT_DIR$/.idea/group-app-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../myapp-db/.idea/myapp-db.iml" filepath="$PROJECT_DIR$/../myapp-db/.idea/myapp-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../posts-app-service/.idea/posts-app-service.iml" filepath="$PROJECT_DIR$/../posts-app-service/.idea/posts-app-service.iml" />
+    </modules>
+  </component>
+</project>

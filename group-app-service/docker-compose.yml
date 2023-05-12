@@ -1,0 +1,16 @@
+version: "3"
+
+networks:
+  myapp:
+    external: true
+
+services:
+  group-app:
+    build: .
+    ports:
+      - "8002:8002"
+    environment:
+      - DB_URL=postgres://root:root@app-db:5432/app-db?sslmode=disable
+      - PORT=8002
+    networks:
+      - myapp
